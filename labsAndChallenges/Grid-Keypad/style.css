@@ -1,15 +1,57 @@
 .keypad {
-    margin: 75px 75px;
+    margin: 75px auto;
+    width: 300px;
     border: solid black 1px;
     display: grid;
-    grid-template: repeat(4, 25%) / repeat(3, 33.3%);
-    text-align: center;
+    grid-template: repeat(4, 100px) / repeat(3, 100px);
+    grid-auto-rows: 100px;
+    max-width: 700px;
+    margin: 70px auto;
 }
 
 .key {
+
     border: solid black 1px;
     background-color: slategray;
     color: white;
-    font-size: x-large;
+    font-size: xx-large;
+    text-align: center;
+    padding: 33px 0;
+    role: button;
 }
 
+.key:hover {
+    background-color: rgb(64, 255, 0);
+}
+
+.key:active {
+    color: black;
+    background-color: rgb(255, 255, 255);
+}
+
+
+
+/* ALTERNATE WAY WITH BUTTON HTML TAGS */
+
+/* 
+button {
+
+    border: solid black 1px;
+    background-color: slategray;
+    color: white;
+    font-size: xx-large;
+    text-align: center;
+    padding: 33px 0;
+    role: button;
+    transition-duration: 0.2s;
+}
+
+button:hover {
+    background-color: rgb(64, 255, 0);
+}
+
+button:active {
+    color: black;
+    background-color: rgb(255, 255, 255);
+}
+ */
