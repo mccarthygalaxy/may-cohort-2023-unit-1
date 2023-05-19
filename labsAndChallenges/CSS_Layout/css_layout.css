@@ -3,30 +3,60 @@ html, body {
     background-color: lightgoldenrodyellow;
 }
 
-nav {
-    /* display: block; */
-    text-align: center;
-    float: none, 10em;
-    /* margin: 10px; */
-    /* padding: 10px; */
-    /* position: absolute; */
-    top: 0px;
-    font-size: 2em;
+nav { 
+    font-size: 1.9em;
+    color: white;
     background-color: rgb(185, 135, 236);
+    overflow: hidden;
+}
+
+div {
+    margin: 0px 12px;
+}
+
+#aboutText {
+    padding: 5em 2em;
+}
+
+#shopText {
+    background-color: lightsteelblue;
+    height: 100vh;
+}
+
+ul {
+    margin: 0px;
+    padding: 0px;
+}
+
+li {
+    display: inline;
+    padding: 0px 0px 0px 5px;
+}
+
+#brand {
+    float: right;
+}
+
+#about,#shop {
+    float: left;
+}
+
+a {
+    text-decoration: none;
+    background-color: black;
+    margin: 0px;
+    padding: 2px 12px;
+}
+
+a:visited {
+    color: white;
+}
+
+a:active {
+    color: rgb(117, 255, 67);
 }
 
 p {
     font-size: 1.2em;
     font-family: 'Times New Roman', Times, serif;
-}
-
-ul {
-    /* display: inline-block; */
-    float: none, 10em;
-    list-style-type: none;
-}
-
-.links {
-    /* float: right; */
-    padding: 0px 60px;
 }
